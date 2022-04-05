@@ -1,9 +1,11 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom'
 import Watch from '../../../src/images/watch.jpeg';
 import usersReview from '../../hooks/UsersReview';
 import './Home.css'
 const Home = () => {
     const [usersReviews, setUsersReviews] = usersReview();
+    const navigate = useNavigate();
     return (
         <div>
             <div className='home-info'>
@@ -33,7 +35,7 @@ const Home = () => {
                 }
             </div>
                 <div>
-                    <button className='show-more-btn'>Show More Review</button>
+                    <button onClick={() => navigate('/reviews') } className='show-more-btn'>Show More Review</button>
                 </div>
             </div>
             
