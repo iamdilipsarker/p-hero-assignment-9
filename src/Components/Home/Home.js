@@ -1,7 +1,9 @@
 import React from 'react';
 import Watch from '../../../src/images/watch.jpeg';
+import usersReview from '../../hooks/UsersReview';
 import './Home.css'
 const Home = () => {
+    const [usersReviews, setUsersReviews] = usersReview();
     return (
         <div>
             <div className='home-info'>
@@ -15,12 +17,26 @@ const Home = () => {
             </div>
             <div className='customer-review-on-home'>
                 <div>
-                    <h4 className='text-center pt-3'>Customers Review</h4>
+                    <h4 className='text-center pt-3'>Customers Review(3)</h4>
                 </div>
+                <div className='review-items'>
+                {
+                    usersReviews.slice(0,3).map(consumer => (
+                        <div className='consumer-info'  key={consumer.id}>
+                            <img src={consumer.img} alt="" />
+                            <p>{consumer.text}</p>
+                            <p>Name: {consumer.name}</p>
+                            <p>Ratings:{consumer.ratings}</p>
+                            
+                        </div>
+                    ))
+                }
+            </div>
                 <div>
                     <button className='show-more-btn'>Show More Review</button>
                 </div>
             </div>
+            
         </div>
     );
 };

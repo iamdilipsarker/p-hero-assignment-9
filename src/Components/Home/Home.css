@@ -20,7 +20,7 @@
     align-items: center;
 }
 .show-more-btn{
-    margin-top: 300px;
+    
     margin-bottom: 50px;
     border: none;
     background-color: #ff6347;
@@ -29,4 +29,42 @@
 }
 .show-more-btn:hover{
     background-color: #f74258;
+}
+.review-items{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    margin-top: 20px;
+    
+
+}
+.consumer-info{
+    width:310px;
+    height: 510px;
+    border: 2px solid #95A0A7;
+    border-radius: 10px;
+    padding:10px;
+    margin-left:20px;
+    margin-bottom: 50px;
+    
+}
+.consumer-info img{
+    height:250px;
+    width:280px;
+    border-radius: 10px;
+}
+/*-------------------------------*\
+Responsive Design
+\*-------------------------------*/
+/*-------------------------------*\
+for mobile device
+\*-------------------------------*/
+@media screen and (max-width:576px){
+.review-items{
+    
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 90px;
+    
+
+    }
 }

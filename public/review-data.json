@@ -1,21 +1,21 @@
 [
     {
     "id": "1",
-    "text": "OvEy, holy cow, oh my God, WOW!! lol yeah its a conversation starter. It sparkle no mater where you are, it's light in weight, & the presentation for this watch was beautiful. Enjoy the pics",
+    "text": "Ovey, holy cow, oh my God, WOW!! lol yeah its a conversation starter. It sparkle no mater where you are, it's light in weight, & the presentation for this watch was beautiful. Enjoy the pics",
     "name": "Famous Roman",
     "img": "images/famous-roman.jpg",
     "ratings":5
   },
     {
     "id": "2",
-    "text": "I took this watch to an official michael kors store in New York to get fitted as it was too large. They told me it was fake, I spoke to a manager who explained this happens all the time and most of the watches sold on Amazon are fake. I'm so disappointed! Buyer beware!",
+    "text": "I took this watch to an official michael kors store in New York to get fitted as it was too large. They told me it was fake.",
     "name": "Juan",
     "img": "images/juan.jpg",
     "ratings":3
   },
     {
     "id": "3",
-    "text": "This is a Authentic watch, you don't have to worry about buying a fake watch. Went to a Jewlery Store and they charged me only 5 Dollars to resize the watch and it fits perfectly know I highly recommend getting this watch it looks amazing in person, Rolex quality :-)",
+    "text": "This is a Authentic watch, you don't have to worry about buying a fake watch. Went to a Jewlery Store and they charged me only 5 Dollars to resize the watch and it fits realy nice.",
     "name": "Johnny",
     "img": "images/johnny.jpg",
     "ratings":4.5
@@ -45,21 +45,21 @@
     "id": "7",
     "text": "I bought this watch for my husband for his birthday. The watch came in a white Michael Kors box not the brown one. A manual was not included only a small cardboard with 'watch care instructions.' ",
     "name": "Selena Gomez",
-    "img": "selena-gomez.jpg",
+    "img": "images/selena-gomez.jpg",
     "ratings":5
   },
     {
     "id": "8",
     "text": "Watch Was Initially Purchased For Casual Use/Wear. Have Owned Watch For Over A Year And So Far Has Served Its Purpose.",
     "name": "Kapitan",
-    "img": "kapitan.jpg",
+    "img": "images/kapitan.jpg",
     "ratings":4
   },
     {
     "id": "9",
     "text": "So I ordered this watch as a gift for a friend . Took it to the MK store for them to check it out and it’s 💯 % authentic MK watch sold directly by MK here on amazon . No! You don’t need to see MK print across the back .",
     "name": "Anaj",
-    "img": "anaj.jpg",
+    "img": "images/anaj.jpg",
     "ratings":4.5
   }
 ]

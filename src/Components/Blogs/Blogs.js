@@ -11,8 +11,8 @@ const Blogs = () => {
                 </p>
                 <h3>What is meta tags in Html?</h3>
                 <p>Answer: The meta tag in HTML provides information about HTML Document or in simple words, it provides important information about a document. Adding the meta tag while making the webpage or website, is a good practice because search engines like Google search for this meta tag in order to understand the information provided by the website. It is also helpful if the user search for a specific website then the search engine result page will display snippets in search results that will provide information related to that website. These tags are basically used to add name/value pairs to describe properties of HTML documents, such as expiry date, author name, list of keywords, document author, etc ie., it is used to specify a character set, page description, keywords, author of the document, and viewport settings. This tag is an empty element because it only has an opening tag and no closing tag, but it carries information within its attributes. A web document can include one or more meta tags depending on information, but in general, it doesn’t affect the physical appearance of the document.</p>
-                <h3>Difference between Inline vs Inline-block vs Block-elements </h3>
-                <p>Inline: The element doesn’t start on a new line and only occupy just the width it requires. We can’t set the width or height.
+                <h3>Difference between Inline vs Inline-block vs Block-elements?</h3>
+                <p>Answer: Inline: The element doesn’t start on a new line and only occupy just the width it requires. We can’t set the width or height.
                 </p>
 
                 <p>
